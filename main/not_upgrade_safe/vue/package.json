@@ -1,0 +1,62 @@
+{
+  "name": "mintvue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "build:repo": "npm run build && rm -r ../assets && cp -r dist/* ../ && cp dist/index.html ../"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@vuepic/vue-datepicker": "^4.5.1",
+    "axios": "^1.7.2",
+    "core-js": "^3.30.0",
+    "favico.js": "^0.3.10",
+    "flag-icons": "^6.6.6",
+    "he": "^1.2.0",
+    "lodash.clonedeep": "^4.5.0",
+    "luxon": "^3.3.0",
+    "pinia": "^2.0.34",
+    "roboto-fontface": "*",
+    "socket.io-client": "^4.7.5",
+    "tinymce": "^5.10.7",
+    "uuid": "^9.0.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.4",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/he": "^1.2.0",
+    "@types/lodash.clonedeep": "^4.5.7",
+    "@types/luxon": "^3.3.0",
+    "@types/uuid": "^9.0.4",
+    "@types/webfontloader": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.8.7",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.8",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  },
+  "engines": {
+    "node": "~16 || ~21"
+  }
+}
